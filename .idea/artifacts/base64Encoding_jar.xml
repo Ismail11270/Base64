@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="base64Encoding:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/base64Encoding_jar</output-path>
+    <root id="root">
+      <element id="archive" name="base64Encoding.jar">
+        <element id="module-output" name="base64Encoding" />
+      </element>
+    </root>
+  </artifact>
+</component>
