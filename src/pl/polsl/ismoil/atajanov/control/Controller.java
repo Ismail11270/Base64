@@ -129,7 +129,7 @@ public class Controller {
     /**
      * The method removes spaces from a string
      * @param text - String
-     * @return
+     * @return String without spaces
      */
     public String removeSpacesFromString(String text) {
         Character[] textAsCharacterArray =
@@ -146,7 +146,7 @@ public class Controller {
                 textToCharList) {
             updatedText = updatedText.concat(Character.toString(a));
         }
-        System.out.println(updatedText);
+        view.print(updatedText + "\n");
         return updatedText;
     }
 
