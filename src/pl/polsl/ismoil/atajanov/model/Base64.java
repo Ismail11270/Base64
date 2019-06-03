@@ -34,7 +34,7 @@ public class Base64{
         char[] asciiOutput = new char[4];
         String concatAllBits = "";
         int n = 0;
-        System.out.println(input.length());
+        //System.out.println(input.length());
         while (n < input.length() - 2) {
             String cutThree = input.substring(n, n + 3);
             asciiInput[0] = cutThree.toCharArray()[0];
@@ -69,6 +69,7 @@ public class Base64{
     /**
      * Method decode String using Base64 method
      * @param stringToDecode string to be decoded
+     * @throws EncodedStringInvalidException if stringToDecode contains spaces
      * @return String - result of decoding
      */
     public String decode(String stringToDecode) throws EncodedStringInvalidException {
@@ -89,7 +90,7 @@ public class Base64{
                 base64Indexes[2] = base64CharToIndex(cutFour.toCharArray()[2]);
                 base64Indexes[3] = base64CharToIndex(cutFour.toCharArray()[3]);
             }catch(EncodedStringInvalidException e){
-                System.out.println(e.getMessage() + "\nTerminating the program...");
+                throw e;
             }
             concatAllBits = intToSixBitsString(base64Indexes[0])
                     .concat(intToSixBitsString(base64Indexes[1]))
@@ -155,6 +156,7 @@ public class Base64{
     /**
      * Base64 table
      * @param x char from table
+     * @throws EncodedStringInvalidException if the string contains illegal characters
      * @return index from table
      */
     private int base64CharToIndex(char x) throws EncodedStringInvalidException {
@@ -190,7 +192,7 @@ public class Base64{
      * Convert integer into 6 bits binary
      * Used for decoding
      * @param x value from 0-64
-     * @return
+     * @return String of 6 bits ( E.g. "001011")
      */
     private String intToSixBitsString(int x) {
         String res = "";
@@ -238,8 +240,8 @@ public class Base64{
     }
     /**
      * Method that checks if the String contains any illegal characters
-     * @param text
-     * @return
+     * @param text encoded string
+     * @return true or false if the string can be decoded
      */
     public boolean isDecodable(String text) {       //return false if contains spaces
         return (text.contains(" ")) ? false : true;
