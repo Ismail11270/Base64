@@ -8,13 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2eecf84d-eb88-42ee-aba1-9be28620824c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base64Encoding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base64Encoding.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/base64Encoding/pl/polsl/ismoil/atajanov/control/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/base64Encoding/pl/polsl/ismoil/atajanov/control/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/base64Encoding/pl/polsl/ismoil/atajanov/model/Base64.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/base64Encoding/pl/polsl/ismoil/atajanov/model/Base64.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/base64Encoding/pl/polsl/ismoil/atajanov/model/base64exceptions/EncodedStringInvalidException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/base64Encoding/pl/polsl/ismoil/atajanov/model/base64exceptions/EncodedStringInvalidException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/control/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/control/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/Base64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/Base64.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/base64exceptions/EncodedStringInvalidException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/base64exceptions/EncodedStringInvalidException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TestBase64.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestBase64.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,18 +32,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/TestBase64.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base64Encoding.iml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -57,17 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/base64exceptions/EncodedStringInvalidException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="357">
               <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/TestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -75,29 +48,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/Base64.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
+            <state relative-caret-position="3349">
               <caret line="206" column="27" selection-start-line="206" selection-start-column="27" selection-end-line="206" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#encode#0;class#Base64#0" />
-                <element signature="method#decode#0;class#Base64#0" />
-                <element signature="method#convertThreeBitsToFour#0;class#Base64#0" />
-                <element signature="method#convertFourBitsToThree#0;class#Base64#0" />
-                <element signature="method#base64IndexToChar#0;class#Base64#0" />
-                <element signature="method#base64CharToIndex#0;class#Base64#0" />
-                <element signature="method#intToEightBitsString#0;class#Base64#0" />
-                <element signature="method#bitsToInt#0;class#Base64#0" />
-                <element signature="method#initializeBase64Table#0;class#Base64#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/control/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="131" column="36" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
+            <state relative-caret-position="376">
+              <caret line="131" column="14" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#encodeOrDecode#0;class#Controller#0" />
@@ -110,10 +75,34 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/TestBase64.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/TestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
+            <state relative-caret-position="629">
               <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -164,9 +153,9 @@
         <option value="$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/TestSuite.java" />
         <option value="$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/TestSuite.java" />
         <option value="$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/TestBase64.java" />
-        <option value="$PROJECT_DIR$/test/TestBase64.java" />
         <option value="$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/base64exceptions/EncodedStringInvalidException.java" />
         <option value="$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/control/Controller.java" />
+        <option value="$PROJECT_DIR$/test/TestBase64.java" />
       </list>
     </option>
   </component>
@@ -183,7 +172,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,6 +210,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,7 +220,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557829195063" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558432069986" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TESTING LAB/junit-4.12.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -396,13 +385,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40406000" />
+    <option name="totallyTimeSpent" value="42906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -651,7 +639,7 @@
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/TestClass.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
+        <state relative-caret-position="629">
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -662,26 +650,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/TestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/TestBase64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/TestSuite.java" />
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/TestBase64.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -697,51 +667,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/Base64.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
+        <state relative-caret-position="3349">
           <caret line="206" column="27" selection-start-line="206" selection-start-column="27" selection-end-line="206" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#encode#0;class#Base64#0" />
-            <element signature="method#decode#0;class#Base64#0" />
-            <element signature="method#convertThreeBitsToFour#0;class#Base64#0" />
-            <element signature="method#convertFourBitsToThree#0;class#Base64#0" />
-            <element signature="method#base64IndexToChar#0;class#Base64#0" />
-            <element signature="method#base64CharToIndex#0;class#Base64#0" />
-            <element signature="method#intToEightBitsString#0;class#Base64#0" />
-            <element signature="method#bitsToInt#0;class#Base64#0" />
-            <element signature="method#initializeBase64Table#0;class#Base64#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestBase64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/model/base64exceptions/EncodedStringInvalidException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state relative-caret-position="357">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/ismoil/atajanov/control/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="131" column="36" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
+        <state relative-caret-position="376">
+          <caret line="131" column="14" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#encodeOrDecode#0;class#Controller#0" />
@@ -749,6 +694,26 @@
             <element signature="method#base64Decode#0;class#Controller#0" />
             <element signature="method#base64DecodeInput#0;class#Controller#0" />
             <element signature="method#removeSpacesFromString#0;class#Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestBase64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

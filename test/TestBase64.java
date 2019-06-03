@@ -16,6 +16,7 @@ public class TestBase64 {
      */
     Base64 base64 = new Base64();
 
+
     @Test
     public void testDecode(){
         String encoded = "YmFzZTY0IGRlY29kZXI=";
