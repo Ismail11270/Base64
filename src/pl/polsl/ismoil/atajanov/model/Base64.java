@@ -165,6 +165,7 @@ public class Base64{
         else if (x >= 48 && x <= 57) return 52 + x - 48;
         else if (x == '+') return 62;
         else if (x == '/') return 63;
+        else if (x == '=') return 1;
         throw new EncodedStringInvalidException("The string contains illegal characters!! Cannot be decoded!");
     }
 
